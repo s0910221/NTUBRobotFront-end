@@ -1,1 +1,53 @@
-/* You can add global styles to this file, and also import other style files */
+/* Custom */
+body {
+    background-color: rgba(204, 204, 204, 0.245);
+	margin: 0;	
+}
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-top: 30px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.container .content{
+    margin-top: 30px;
+}
+
+.box{
+    box-shadow:1px 1px 3px gray;    
+    border:1px dotted #CCCCCC;
+    color:rgb(0, 0, 0);
+    background-color:rgba(204, 204, 204, 0.245);
+}
+
+td{
+    word-wrap: break-word;
+}
+
+/* RWD */
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+
+@media (min-width: 1600px) {
+    .container {
+        width: 1550;
+    }
+}
