@@ -1,0 +1,1 @@
+{"source":"Analytics 13 {洗錢防制機器人.acl}  {B2_彙總}","lastRecNo":"5","columns":{"客戶":"character","Date1":"date","COUNT":"numeric"},"data":[{"客戶":"PETERS","Date1":"2017-06-03","COUNT":2.0},{"客戶":"PETERS","Date1":"2017-06-13","COUNT":2.0},{"客戶":"Tony","Date1":"2017-11-30","COUNT":3.0},{"客戶":"林桂美","Date1":"2017-02-02","COUNT":5.0},{"客戶":"林桂美","Date1":"2017-02-03","COUNT":2.0}]}

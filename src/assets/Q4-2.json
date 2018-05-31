@@ -1,0 +1,46 @@
+{
+    "source": "Analytics 13 {i_Robot.acl}  {Q4_2}",
+    "lastRecNo": "7",
+    "columns": {
+        "帳號": "character",
+        "COUNT": "numeric",
+        "COUNT_PERCENTAGE": "numeric"
+    },
+    "data": [
+        {
+            "帳號": "7012846863963864",
+            "COUNT": 5.0,
+            "COUNT_PERCENTAGE": 15.63
+        },
+        {
+            "帳號": "7412988902041235",
+            "COUNT": 6.0,
+            "COUNT_PERCENTAGE": 18.75
+        },
+        {
+            "帳號": "7565512548029870",
+            "COUNT": 2.0,
+            "COUNT_PERCENTAGE": 6.25
+        },
+        {
+            "帳號": "7590122623055361",
+            "COUNT": 1.0,
+            "COUNT_PERCENTAGE": 3.13
+        },
+        {
+            "帳號": "7590122623055363",
+            "COUNT": 3.0,
+            "COUNT_PERCENTAGE": 9.38
+        },
+        {
+            "帳號": "7590342627085290",
+            "COUNT": 7.0,
+            "COUNT_PERCENTAGE": 21.88
+        },
+        {
+            "帳號": "7997374868373944",
+            "COUNT": 8.0,
+            "COUNT_PERCENTAGE": 25.00
+        }
+    ]
+}

@@ -39,14 +39,14 @@ export class SideMenuComponent implements OnInit {
       {
         label: '大額存款',
         items: [
-          { label: '50萬', routerLink: ['/q5/fifty'], command: (event) => { this.hideSideBar(); } },
-          { label: '75萬', routerLink: ['/q5/seventyFive'], command: (event) => { this.hideSideBar(); } },
-          { label: '100萬', routerLink: ['/q5/oneHundred'], command: (event) => { this.hideSideBar(); } },
-          { label: '150萬', routerLink: ['/q5/oneHundredFifty'], command: (event) => { this.hideSideBar(); } }
+          { label: '50萬', routerLink: ['/q4/fifty'], command: (event) => { this.hideSideBar(); } },
+          { label: '75萬', routerLink: ['/q4/seventyFive'], command: (event) => { this.hideSideBar(); } },
+          { label: '100萬', routerLink: ['/q4/oneHundred'], command: (event) => { this.hideSideBar(); } },
+          { label: '150萬', routerLink: ['/q4/oneHundredFifty'], command: (event) => { this.hideSideBar(); } }
         ]
       },
       {
-        label: '以現金及約當現金抵押之違約借款', routerLink: ['/q5']
+        label: '以現金及約當現金抵押之違約借款', routerLink: ['/q5'], command: (event) => { this.hideSideBar(); }
       }
     ];
   }

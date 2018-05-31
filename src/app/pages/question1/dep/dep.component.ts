@@ -1,3 +1,4 @@
+import { Question1 } from './../question1.model';
 import { Component, OnInit } from '@angular/core';
 import { HttpService } from '../../../public_services/http.service';
 
@@ -12,19 +13,21 @@ export class DEPComponent implements OnInit {
   constructor(private _http: HttpService) { }
 
   ngOnInit() {
-    this._http.getData('/Q1.json').subscribe(
+    this._http.getData('/Q1-1.json').subscribe(
       data => {
         const labels = [];
         const count = [];
-        for (const datum of data.data) {
-          labels.push(datum.人名);
-          count.push(datum._45萬至_50萬拆單次數);
+        const q1: Question1[] = data.data;
+        for (const q of q1) {
+          labels.push(q.帳號);
+          count.push(q.COUNT);
         }
+
         this.data = {
           labels: labels,
           datasets: [
             {
-              label: 'DEP:45萬至_50萬拆單次數',
+              label: 'A1_DEP',
               backgroundColor: '#42A5F5',
               borderColor: '#1E88E5',
               data: count

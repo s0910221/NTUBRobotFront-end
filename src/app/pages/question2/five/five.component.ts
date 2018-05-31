@@ -1,3 +1,4 @@
+import { Question2 } from './../question2.model';
 import { Component, OnInit } from '@angular/core';
 import { HttpService } from '../../../public_services/http.service';
 
@@ -12,19 +13,20 @@ export class FiveComponent implements OnInit {
   constructor(private _http: HttpService) { }
 
   ngOnInit() {
-    this._http.getData('/Q2.json').subscribe(
+    this._http.getData('/Q2-1.json').subscribe(
       data => {
         const labels = [];
         const count = [];
-        for (const datum of data.data) {
-          labels.push(datum.人名);
-          count.push(datum.交易次數);
+        const q2: Question2[] = data.data;
+        for (const q of q2) {
+          labels.push(q.客戶);
+          count.push(q.COUNT);
         }
         this.data = {
           labels: labels,
           datasets: [
             {
-              label: '區間:5min內',
+              label: '密集存款:5分鐘內',
               backgroundColor: '#42A5F5',
               borderColor: '#1E88E5',
               data: count

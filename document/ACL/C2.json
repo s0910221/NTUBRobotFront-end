@@ -1,0 +1,1 @@
+{"source":"Analytics 13 {洗錢防制機器人.acl}  {C2_彙總}","lastRecNo":"3","columns":{"Name":"character","Transaction_Amount":"numeric","COUNT":"numeric"},"data":[{"Name":"ABDUL RAHIN","Transaction_Amount":206000.0,"COUNT":1.0},{"Name":"ALLAN","Transaction_Amount":548611.0,"COUNT":7.0},{"Name":"PETERS","Transaction_Amount":683525.0,"COUNT":16.0}]}

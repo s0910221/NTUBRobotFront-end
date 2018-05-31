@@ -1,0 +1,7 @@
+區間	人名	交易次數
+5min內	A	9
+5min內	B	7
+5min內	C	6
+5min內	D	5
+5min內	E	3
+5min內	F	3

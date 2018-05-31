@@ -1,16 +1,21 @@
 <p-table *ngIf="q5" [value]="q5">
+    <ng-template pTemplate="caption">
+        以現金及約當現金抵押之違約借款
+    </ng-template>
     <ng-template pTemplate="header">
         <tr>
-            <th>抵押品</th>
             <th>人名</th>
             <th>借款金額</th>
+            <th>抵押品</th>
+            <th>合約狀況</th>
         </tr>
     </ng-template>
     <ng-template pTemplate="body" let-q>
         <tr>
-            <td>{{q.guarantee}}</td>
             <td>{{q.personName}}</td>
             <td>{{q.loanMount}}</td>
+            <td>{{q.guarantee}}</td>
+            <td>{{q.status}}</td>
         </tr>
     </ng-template>
 </p-table>

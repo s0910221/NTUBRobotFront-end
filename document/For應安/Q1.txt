@@ -1,0 +1,6 @@
+交易類型	人名	45萬至50萬拆單次數
+DEP	A	10
+DEP	B	7
+DEP	C	5
+DEP	D	2
+DEP	E	2
