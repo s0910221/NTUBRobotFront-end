@@ -1,3 +1,4 @@
+import { AuthGuard } from './guards/auth.guard';
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { Question1Component } from './pages/question1/question1.component';
@@ -15,10 +16,12 @@ import { SeventyFiveComponent } from './pages/question4/seventy-five/seventy-fiv
 import { OneHundredComponent } from './pages/question4/one-hundred/one-hundred.component';
 import { OneHundredFiftyComponent } from './pages/question4/one-hundred-fifty/one-hundred-fifty.component';
 import { Question5Component } from './pages/question5/question5.component';
+import { LoginComponent } from './pages/login/login.component';
+import { DetailQ2Component } from './pages/question2/detail-q2/detail-q2.component';
 
 const routes: Routes = [
   {
-    path: 'q1', component: Question1Component, children: [
+    path: 'q1', component: Question1Component, canActivate: [AuthGuard], children: [
       { path: 'dep', component: DEPComponent },
       { path: 'wdl', component: WDLComponent },
       { path: '', redirectTo: 'dep', pathMatch: 'full' },
@@ -26,15 +29,17 @@ const routes: Routes = [
     ]
   },
   {
-    path: 'q2', component: Question2Component, children: [
+    path: 'q2', component: Question2Component, canActivate: [AuthGuard], children: [
       { path: 'five', component: FiveComponent },
+      { path: 'five/:name', component: DetailQ2Component },
       { path: 'ten', component: TenComponent },
+      { path: 'ten/:name', component: DetailQ2Component },
       { path: '', redirectTo: 'five', pathMatch: 'full' },
       { path: '**', redirectTo: 'five' }
     ]
   },
   {
-    path: 'q3', component: Question3Component, children: [
+    path: 'q3', component: Question3Component, canActivate: [AuthGuard], children: [
       { path: 'accurate', component: AccurateComponent },
       { path: 'fuzzy', component: FuzzyComponent },
       { path: '', redirectTo: 'accurate', pathMatch: 'full' },
@@ -42,7 +47,7 @@ const routes: Routes = [
     ]
   },
   {
-    path: 'q4', component: Question4Component, children: [
+    path: 'q4', component: Question4Component, canActivate: [AuthGuard], children: [
       { path: 'fifty', component: FiftyComponent },
       { path: 'seventyFive', component: SeventyFiveComponent },
       { path: 'oneHundred', component: OneHundredComponent },
@@ -52,10 +57,11 @@ const routes: Routes = [
     ]
   },
   {
-    path: 'q5', component: Question5Component
+    path: 'q5', component: Question5Component, canActivate: [AuthGuard]
   },
-  { path: '', redirectTo: 'q1', pathMatch: 'full' },
-  { path: '**', redirectTo: 'q1' },
+  { path: 'login', component: LoginComponent },
+  { path: '', redirectTo: 'login', pathMatch: 'full' },
+  { path: '**', redirectTo: 'login' },
 ];
 
 @NgModule({

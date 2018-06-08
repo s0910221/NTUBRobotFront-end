@@ -13,7 +13,7 @@ export class FiftyComponent implements OnInit {
   constructor(private _http: HttpService) { }
 
   ngOnInit() {
-    this._http.getData('/Q4-1.json').subscribe(
+    this._http.getData('/Q4_1.json').subscribe(
       data => {
         const labels = [];
         const count = [];

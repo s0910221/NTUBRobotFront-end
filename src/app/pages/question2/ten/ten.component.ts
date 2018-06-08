@@ -13,7 +13,7 @@ export class TenComponent implements OnInit {
   constructor(private _http: HttpService) { }
 
   ngOnInit() {
-    this._http.getData('/Q2-2.json').subscribe(
+    this._http.getData('/Q2_2.json').subscribe(
       data => {
         const labels = [];
         const count = [];

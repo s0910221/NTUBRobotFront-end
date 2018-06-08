@@ -13,7 +13,7 @@ export class OneHundredFiftyComponent implements OnInit {
   constructor(private _http: HttpService) { }
 
   ngOnInit() {
-    this._http.getData('/Q4-4.json').subscribe(
+    this._http.getData('/Q4_4.json').subscribe(
       data => {
         const labels = [];
         const count = [];

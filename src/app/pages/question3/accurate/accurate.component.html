@@ -1,3 +1,19 @@
-<p>
-  accurate works!
-</p>
+<p-table *ngIf="q32" [value]="q32">
+  <ng-template pTemplate="caption">
+    黑名單交易(精準比對)
+  </ng-template>
+  <ng-template pTemplate="header">
+    <tr>
+      <th>單位名稱</th>
+      <th>資源1</th>
+      <th>資源2</th>
+    </tr>
+  </ng-template>
+  <ng-template pTemplate="body" let-q>
+    <tr>
+      <td>{{q.Name}}</td>
+      <td>{{q.Source}}</td>
+      <td>{{q.Source2}}</td>
+    </tr>
+  </ng-template>
+</p-table>

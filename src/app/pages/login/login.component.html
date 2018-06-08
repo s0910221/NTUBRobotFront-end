@@ -1,0 +1,15 @@
+<p-dialog header="登入" [(visible)]="display" [modal]="true" [responsive]="true" [width]="350" [minWidth]="200" [minY]="70"
+  [closeOnEscape]="false" [closable]="false">
+  <p style="margin-bottom: 8px"></p>
+  <span class="ui-float-label" style="margin-bottom: 20px">
+    <input id="account" type="text" size="30" [(ngModel)]="account" pInputText>
+    <label for="account">帳號</label>
+  </span>
+  <span class="ui-float-label" style="margin-bottom: 10px">
+    <input id="password" type="password" size="30" [feedback]="false" [(ngModel)]="password" pPassword>
+    <label for="password">密碼</label>
+  </span>
+  <p-footer>
+    <button type="button" pButton icon="fa fa-check" (click)="login()" label="登入"></button>
+  </p-footer>
+</p-dialog>

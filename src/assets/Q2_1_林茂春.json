@@ -1,0 +1,249 @@
+{
+    "source": "Analytics 13 {i_Robot.acl}  {Q2_1_林茂春}",
+    "lastRecNo": "26",
+    "columns": {
+        "Transaction_Number": "character",
+        "Date1": "date",
+        "時間": "time",
+        "帳號": "character",
+        "客戶": "character",
+        "Type": "character",
+        "Transaction_Amount": "numeric"
+    },
+    "data": [
+        {
+            "Transaction_Number": "17312593",
+            "Date1": "2017-08-30",
+            "時間": "12:12:00",
+            "帳號": "7412988902041235",
+            "客戶": "林茂春",
+            "Type": "DEP",
+            "Transaction_Amount": 5000.0
+        },
+        {
+            "Transaction_Number": "17312594",
+            "Date1": "2017-08-30",
+            "時間": "12:20:30",
+            "帳號": "7412988902041235",
+            "客戶": "林茂春",
+            "Type": "DEP",
+            "Transaction_Amount": 5000.0
+        },
+        {
+            "Transaction_Number": "17312595",
+            "Date1": "2017-08-30",
+            "時間": "12:29:00",
+            "帳號": "7412988902041235",
+            "客戶": "林茂春",
+            "Type": "DEP",
+            "Transaction_Amount": 5000.0
+        },
+        {
+            "Transaction_Number": "17312596",
+            "Date1": "2017-08-30",
+            "時間": "12:37:30",
+            "帳號": "7412988902041235",
+            "客戶": "林茂春",
+            "Type": "DEP",
+            "Transaction_Amount": 5000.0
+        },
+        {
+            "Transaction_Number": "17312597",
+            "Date1": "2017-08-30",
+            "時間": "12:46:00",
+            "帳號": "7412988902041235",
+            "客戶": "林茂春",
+            "Type": "DEP",
+            "Transaction_Amount": 5000.0
+        },
+        {
+            "Transaction_Number": "17312598",
+            "Date1": "2017-08-30",
+            "時間": "12:54:30",
+            "帳號": "7412988902041235",
+            "客戶": "林茂春",
+            "Type": "DEP",
+            "Transaction_Amount": 5000.0
+        },
+        {
+            "Transaction_Number": "17312599",
+            "Date1": "2017-08-30",
+            "時間": "13:03:00",
+            "帳號": "7412988902041235",
+            "客戶": "林茂春",
+            "Type": "DEP",
+            "Transaction_Amount": 5000.0
+        },
+        {
+            "Transaction_Number": "17312600",
+            "Date1": "2017-08-30",
+            "時間": "13:11:30",
+            "帳號": "7412988902041235",
+            "客戶": "林茂春",
+            "Type": "DEP",
+            "Transaction_Amount": 5000.0
+        },
+        {
+            "Transaction_Number": "17312601",
+            "Date1": "2017-08-30",
+            "時間": "13:20:00",
+            "帳號": "7412988902041235",
+            "客戶": "林茂春",
+            "Type": "DEP",
+            "Transaction_Amount": 5000.0
+        },
+        {
+            "Transaction_Number": "17312602",
+            "Date1": "2017-08-30",
+            "時間": "13:28:30",
+            "帳號": "7412988902041235",
+            "客戶": "林茂春",
+            "Type": "DEP",
+            "Transaction_Amount": 5000.0
+        },
+        {
+            "Transaction_Number": "17313849",
+            "Date1": "2017-03-02",
+            "時間": "10:05:00",
+            "帳號": "7412988902041235",
+            "客戶": "林茂春",
+            "Type": "WDL",
+            "Transaction_Amount": 454300.0
+        },
+        {
+            "Transaction_Number": "17313851",
+            "Date1": "2017-03-09",
+            "時間": "10:00:30",
+            "帳號": "7412988902041235",
+            "客戶": "林茂春",
+            "Type": "WDL",
+            "Transaction_Amount": 457100.0
+        },
+        {
+            "Transaction_Number": "17313857",
+            "Date1": "2017-03-16",
+            "時間": "10:05:00",
+            "帳號": "7412988902041235",
+            "客戶": "林茂春",
+            "Type": "WDL",
+            "Transaction_Amount": 459900.0
+        },
+        {
+            "Transaction_Number": "17313862",
+            "Date1": "2017-03-23",
+            "時間": "10:02:00",
+            "帳號": "7412988902041235",
+            "客戶": "林茂春",
+            "Type": "WDL",
+            "Transaction_Amount": 462700.0
+        },
+        {
+            "Transaction_Number": "17313870",
+            "Date1": "2017-03-30",
+            "時間": "10:13:30",
+            "帳號": "7412988902041235",
+            "客戶": "林茂春",
+            "Type": "WDL",
+            "Transaction_Amount": 465500.0
+        },
+        {
+            "Transaction_Number": "17313877",
+            "Date1": "2017-04-06",
+            "時間": "10:07:00",
+            "帳號": "7412988902041235",
+            "客戶": "林茂春",
+            "Type": "WDL",
+            "Transaction_Amount": 468300.0
+        },
+        {
+            "Transaction_Number": "17313887",
+            "Date1": "2017-04-13",
+            "時間": "10:09:30",
+            "帳號": "7412988902041235",
+            "客戶": "林茂春",
+            "Type": "WDL",
+            "Transaction_Amount": 471100.0
+        },
+        {
+            "Transaction_Number": "17313912",
+            "Date1": "2017-04-20",
+            "時間": "10:11:00",
+            "帳號": "7412988902041235",
+            "客戶": "林茂春",
+            "Type": "WDL",
+            "Transaction_Amount": 483900.0
+        },
+        {
+            "Transaction_Number": "17313925",
+            "Date1": "2017-04-27",
+            "時間": "10:04:00",
+            "帳號": "7412988902041235",
+            "客戶": "林茂春",
+            "Type": "WDL",
+            "Transaction_Amount": 493100.0
+        },
+        {
+            "Transaction_Number": "17313934",
+            "Date1": "2017-08-31",
+            "時間": "14:28:30",
+            "帳號": "7412988902041235",
+            "客戶": "林茂春",
+            "Type": "DEP",
+            "Transaction_Amount": 650000.0
+        },
+        {
+            "Transaction_Number": "17313936",
+            "Date1": "2017-08-30",
+            "時間": "13:28:30",
+            "帳號": "7412988902041235",
+            "客戶": "林茂春",
+            "Type": "DEP",
+            "Transaction_Amount": 850000.0
+        },
+        {
+            "Transaction_Number": "17313939",
+            "Date1": "2017-09-01",
+            "時間": "15:28:30",
+            "帳號": "7412988902041235",
+            "客戶": "林茂春",
+            "Type": "DEP",
+            "Transaction_Amount": 1200000.0
+        },
+        {
+            "Transaction_Number": "17313967",
+            "Date1": "2017-03-31",
+            "時間": "11:00:00",
+            "帳號": "7412988902041235",
+            "客戶": "林茂春",
+            "Type": "DEP",
+            "Transaction_Amount": 2100000.0
+        },
+        {
+            "Transaction_Number": "17313968",
+            "Date1": "2017-05-20",
+            "時間": "12:00:00",
+            "帳號": "7412988902041235",
+            "客戶": "林茂春",
+            "Type": "DEP",
+            "Transaction_Amount": 1950000.0
+        },
+        {
+            "Transaction_Number": "17313969",
+            "Date1": "2017-04-12",
+            "時間": "13:00:00",
+            "帳號": "7412988902041235",
+            "客戶": "林茂春",
+            "Type": "DEP",
+            "Transaction_Amount": 1350000.0
+        },
+        {
+            "Transaction_Number": "17313970",
+            "Date1": "2017-07-22",
+            "時間": "14:00:00",
+            "帳號": "7412988902041235",
+            "客戶": "林茂春",
+            "Type": "DEP",
+            "Transaction_Amount": 990000.0
+        }
+    ]
+}

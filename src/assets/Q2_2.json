@@ -1,15 +1,11 @@
 {
     "source": "Analytics 13 {i_Robot.acl}  {Q2_2}",
-    "lastRecNo": "5",
+    "lastRecNo": "4",
     "columns": {
         "客戶": "character",
         "COUNT": "numeric"
     },
     "data": [
-        {
-            "客戶": "MCRAE",
-            "COUNT": 5.0
-        },
         {
             "客戶": "SOLOMON LANE",
             "COUNT": 14.0

@@ -1,6 +1,6 @@
 {
     "source": "Analytics 13 {i_Robot.acl}  {Q2_1}",
-    "lastRecNo": "6",
+    "lastRecNo": "7",
     "columns": {
         "客戶": "character",
         "COUNT": "numeric"
@@ -12,7 +12,7 @@
         },
         {
             "客戶": "PETERS",
-            "COUNT": 12.0
+            "COUNT": 6.0
         },
         {
             "客戶": "SOLOMON LANE",
@@ -25,6 +25,10 @@
         {
             "客戶": "何忠天",
             "COUNT": 15.0
+        },
+        {
+            "客戶": "林茂春",
+            "COUNT": 2.0
         },
         {
             "客戶": "王紹揚",

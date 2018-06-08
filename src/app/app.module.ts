@@ -2,6 +2,7 @@ import { HttpService } from './public_services/http.service';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -18,7 +19,10 @@ import { ButtonModule } from 'primeng/button';
 import { ChartModule } from 'primeng/chart';
 import { SidebarModule } from 'primeng/sidebar';
 import { PanelMenuModule } from 'primeng/panelmenu';
-import {TableModule} from 'primeng/table';
+import { TableModule } from 'primeng/table';
+import { DialogModule } from 'primeng/dialog';
+import { InputTextModule } from 'primeng/inputtext';
+import { PasswordModule } from 'primeng/password';
 
 // HttpLoader
 import { NgHttpLoaderModule } from 'ng-http-loader';
@@ -34,6 +38,9 @@ import { FiftyComponent } from './pages/question4/fifty/fifty.component';
 import { SeventyFiveComponent } from './pages/question4/seventy-five/seventy-five.component';
 import { OneHundredComponent } from './pages/question4/one-hundred/one-hundred.component';
 import { OneHundredFiftyComponent } from './pages/question4/one-hundred-fifty/one-hundred-fifty.component';
+import { LoginComponent } from './pages/login/login.component';
+import { DetailQ2Component } from './pages/question2/detail-q2/detail-q2.component';
+import { Q2Service } from './pages/question2/service/q2.service';
 
 @NgModule({
   declarations: [
@@ -53,21 +60,28 @@ import { OneHundredFiftyComponent } from './pages/question4/one-hundred-fifty/on
     FiftyComponent,
     SeventyFiveComponent,
     OneHundredComponent,
-    OneHundredFiftyComponent
+    OneHundredFiftyComponent,
+    LoginComponent,
+    DetailQ2Component
   ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
     AppRoutingModule,
     HttpClientModule,
+    FormsModule,
     ButtonModule,
     ChartModule,
     SidebarModule,
     PanelMenuModule,
     TableModule,
+    DialogModule,
+    InputTextModule,
+    PasswordModule,
     NgHttpLoaderModule
   ],
-  providers: [HttpService],
+  providers: [HttpService,
+    Q2Service],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

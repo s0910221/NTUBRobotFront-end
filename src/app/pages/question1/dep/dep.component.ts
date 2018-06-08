@@ -13,7 +13,7 @@ export class DEPComponent implements OnInit {
   constructor(private _http: HttpService) { }
 
   ngOnInit() {
-    this._http.getData('/Q1-1.json').subscribe(
+    this._http.getData('/Q1_1.json').subscribe(
       data => {
         const labels = [];
         const count = [];

@@ -51,3 +51,8 @@ td{
         width: 1550;
     }
 }
+
+/* override */
+.ui-sidebar	{
+    overflow: auto;
+}
