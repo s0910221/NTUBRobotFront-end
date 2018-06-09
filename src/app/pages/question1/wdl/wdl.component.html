@@ -1,1 +1,27 @@
-<p-chart *ngIf="data" type="bar" [data]="data"></p-chart>
+<p-table *ngIf="_service.q1Items" [value]="_service.q1Items">
+    <ng-template pTemplate="caption">
+        拆單後大額提款
+    </ng-template>
+    <ng-template pTemplate="header">
+        <tr>
+            <th>帳號</th>
+            <th>客戶</th>
+            <th>Date1</th>
+            <th>Type</th>
+            <th>Transaction_Amount</th>
+            <th>Type2</th>
+            <th>Transaction_Amount2</th>
+        </tr>
+    </ng-template>
+    <ng-template pTemplate="body" let-q>
+        <tr>
+            <td>{{q.Account}}</td>
+            <td>{{q.Customer}}</td>
+            <td>{{q.Date1}}</td>
+            <td>{{q.Type}}</td>
+            <td>{{q.Transaction_Amount}}</td>
+            <td>{{q.Type2}}</td>
+            <td>{{q.Transaction_Amount2}}</td>
+        </tr>
+    </ng-template>
+</p-table>

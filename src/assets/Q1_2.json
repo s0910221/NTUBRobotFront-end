@@ -1,36 +1,159 @@
 {
     "source": "Analytics 13 {i_Robot.acl}  {Q1_2}",
-    "lastRecNo": "5",
+    "lastRecNo": "16",
     "columns": {
         "帳號": "character",
-        "COUNT": "numeric",
-        "COUNT_PERCENTAGE": "numeric"
+        "客戶": "character",
+        "Date1": "date",
+        "Type": "character",
+        "Transaction_Amount": "numeric",
+        "Type2": "character",
+        "Transaction_Amount2": "numeric"
     },
     "data": [
         {
-            "帳號": "7012846863963864",
-            "COUNT": 18.0,
-            "COUNT_PERCENTAGE": 36.73
-        },
-        {
-            "帳號": "7412988902041235",
-            "COUNT": 9.0,
-            "COUNT_PERCENTAGE": 18.37
+            "帳號": "7590124466089977",
+            "客戶": "王紹揚",
+            "Date1": "2017-05-11",
+            "Type": "DEP",
+            "Transaction_Amount": 200000.0,
+            "Type2": "WDL",
+            "Transaction_Amount2": 465000.0
         },
         {
             "帳號": "7590124466089977",
-            "COUNT": 6.0,
-            "COUNT_PERCENTAGE": 12.24
+            "客戶": "王紹揚",
+            "Date1": "2017-05-11",
+            "Type": "DEP",
+            "Transaction_Amount": 200000.0,
+            "Type2": "WDL",
+            "Transaction_Amount2": 465000.0
         },
         {
-            "帳號": "7590125684472398",
-            "COUNT": 4.0,
-            "COUNT_PERCENTAGE": 8.16
+            "帳號": "7590124466089977",
+            "客戶": "王紹揚",
+            "Date1": "2017-05-11",
+            "Type": "DEP",
+            "Transaction_Amount": 200000.0,
+            "Type2": "WDL",
+            "Transaction_Amount2": 465000.0
         },
         {
-            "帳號": "7590342627085290",
-            "COUNT": 12.0,
-            "COUNT_PERCENTAGE": 24.49
+            "帳號": "7590124466089977",
+            "客戶": "王紹揚",
+            "Date1": "2017-05-11",
+            "Type": "DEP",
+            "Transaction_Amount": 200000.0,
+            "Type2": "WDL",
+            "Transaction_Amount2": 465000.0
+        },
+        {
+            "帳號": "7590124466089977",
+            "客戶": "王紹揚",
+            "Date1": "2017-04-03",
+            "Type": "DEP",
+            "Transaction_Amount": 200000.0,
+            "Type2": "WDL",
+            "Transaction_Amount2": 465000.0
+        },
+        {
+            "帳號": "7590124466089977",
+            "客戶": "王紹揚",
+            "Date1": "2017-04-03",
+            "Type": "DEP",
+            "Transaction_Amount": 200000.0,
+            "Type2": "WDL",
+            "Transaction_Amount2": 465000.0
+        },
+        {
+            "帳號": "7590124466089977",
+            "客戶": "王紹揚",
+            "Date1": "2017-04-03",
+            "Type": "DEP",
+            "Transaction_Amount": 200000.0,
+            "Type2": "WDL",
+            "Transaction_Amount2": 465000.0
+        },
+        {
+            "帳號": "7590124466089977",
+            "客戶": "王紹揚",
+            "Date1": "2017-04-03",
+            "Type": "DEP",
+            "Transaction_Amount": 200000.0,
+            "Type2": "WDL",
+            "Transaction_Amount2": 465000.0
+        },
+        {
+            "帳號": "7590124466089977",
+            "客戶": "王紹揚",
+            "Date1": "2017-03-21",
+            "Type": "DEP",
+            "Transaction_Amount": 200000.0,
+            "Type2": "WDL",
+            "Transaction_Amount2": 465000.0
+        },
+        {
+            "帳號": "7590124466089977",
+            "客戶": "王紹揚",
+            "Date1": "2017-03-21",
+            "Type": "DEP",
+            "Transaction_Amount": 200000.0,
+            "Type2": "WDL",
+            "Transaction_Amount2": 465000.0
+        },
+        {
+            "帳號": "7590124466089977",
+            "客戶": "王紹揚",
+            "Date1": "2017-03-21",
+            "Type": "DEP",
+            "Transaction_Amount": 200000.0,
+            "Type2": "WDL",
+            "Transaction_Amount2": 465000.0
+        },
+        {
+            "帳號": "7590124466089977",
+            "客戶": "王紹揚",
+            "Date1": "2017-03-21",
+            "Type": "DEP",
+            "Transaction_Amount": 200000.0,
+            "Type2": "WDL",
+            "Transaction_Amount2": 465000.0
+        },
+        {
+            "帳號": "7590124466089977",
+            "客戶": "王紹揚",
+            "Date1": "2017-02-27",
+            "Type": "DEP",
+            "Transaction_Amount": 200000.0,
+            "Type2": "WDL",
+            "Transaction_Amount2": 465000.0
+        },
+        {
+            "帳號": "7590124466089977",
+            "客戶": "王紹揚",
+            "Date1": "2017-02-27",
+            "Type": "DEP",
+            "Transaction_Amount": 200000.0,
+            "Type2": "WDL",
+            "Transaction_Amount2": 465000.0
+        },
+        {
+            "帳號": "7590124466089977",
+            "客戶": "王紹揚",
+            "Date1": "2017-02-27",
+            "Type": "DEP",
+            "Transaction_Amount": 200000.0,
+            "Type2": "WDL",
+            "Transaction_Amount2": 465000.0
+        },
+        {
+            "帳號": "7590124466089977",
+            "客戶": "王紹揚",
+            "Date1": "2017-02-27",
+            "Type": "DEP",
+            "Transaction_Amount": 200000.0,
+            "Type2": "WDL",
+            "Transaction_Amount2": 465000.0
         }
     ]
 }

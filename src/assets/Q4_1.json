@@ -2,50 +2,41 @@
     "source": "Analytics 13 {i_Robot.acl}  {Q4_1}",
     "lastRecNo": "8",
     "columns": {
-        "帳號": "character",
-        "COUNT": "numeric",
-        "COUNT_PERCENTAGE": "numeric"
+        "客戶": "character",
+        "COUNT": "numeric"
     },
     "data": [
         {
-            "帳號": "7012846863963864",
-            "COUNT": 5.0,
-            "COUNT_PERCENTAGE": 13.51
+            "客戶": "Cindy",
+            "COUNT": 1.0
         },
         {
-            "帳號": "7412988902041235",
-            "COUNT": 7.0,
-            "COUNT_PERCENTAGE": 18.92
+            "客戶": "ETHAN HUNT",
+            "COUNT": 8.0
         },
         {
-            "帳號": "7565512548029870",
-            "COUNT": 2.0,
-            "COUNT_PERCENTAGE": 5.41
+            "客戶": "Sandy",
+            "COUNT": 1.0
         },
         {
-            "帳號": "7590122623055360",
-            "COUNT": 1.0,
-            "COUNT_PERCENTAGE": 2.70
+            "客戶": "Sarah",
+            "COUNT": 3.0
         },
         {
-            "帳號": "7590122623055361",
-            "COUNT": 1.0,
-            "COUNT_PERCENTAGE": 2.70
+            "客戶": "SOLOMON LANE",
+            "COUNT": 10.0
         },
         {
-            "帳號": "7590122623055363",
-            "COUNT": 3.0,
-            "COUNT_PERCENTAGE": 8.11
+            "客戶": "何忠天",
+            "COUNT": 5.0
         },
         {
-            "帳號": "7590342627085290",
-            "COUNT": 8.0,
-            "COUNT_PERCENTAGE": 21.62
+            "客戶": "林茂春",
+            "COUNT": 7.0
         },
         {
-            "帳號": "7997374868373944",
-            "COUNT": 10.0,
-            "COUNT_PERCENTAGE": 27.03
+            "客戶": "簡嘉昇",
+            "COUNT": 2.0
         }
     ]
 }

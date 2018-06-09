@@ -1,5 +1,4 @@
 import { Router } from '@angular/router';
-import { AuthGuard } from './../../guards/auth.guard';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -12,15 +11,14 @@ export class LoginComponent implements OnInit {
   display = true;
   account: string;
   password: string;
-  constructor(private auth: AuthGuard,
-    private router: Router) { }
+  constructor(private router: Router) { }
 
   ngOnInit() {
   }
 
   login() {
     if (this.account === 'ntub' && this.password === 'Ntub1234') {
-      this.auth.isLogin = true;
+      localStorage.setItem('login', 'true');
       const redirect_url = sessionStorage.getItem('redirect_url');
       sessionStorage.clear();
       if (redirect_url) {

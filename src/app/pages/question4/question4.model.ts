@@ -1,5 +1,10 @@
 export interface Question4 {
-    帳號: string;
+    客戶: string;
+    COUNT: number;
+}
+
+export interface Question42 {
+    Customer: string;
     COUNT: number;
 }
 

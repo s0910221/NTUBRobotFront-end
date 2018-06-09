@@ -1,0 +1,213 @@
+{
+    "source": "Analytics 13 {i_Robot.acl}  {Q2_1_王紹揚}",
+    "lastRecNo": "22",
+    "columns": {
+        "Transaction_Number": "character",
+        "Date1": "date",
+        "時間": "time",
+        "帳號": "character",
+        "客戶": "character",
+        "Type": "character",
+        "Transaction_Amount": "numeric"
+    },
+    "data": [
+        {
+            "Transaction_Number": "17313613",
+            "Date1": "2017-02-27",
+            "時間": "10:08:30",
+            "帳號": "7590124466089977",
+            "客戶": "王紹揚",
+            "Type": "DEP",
+            "Transaction_Amount": 200000.0
+        },
+        {
+            "Transaction_Number": "17313614",
+            "Date1": "2017-02-27",
+            "時間": "10:12:30",
+            "帳號": "7590124466089977",
+            "客戶": "王紹揚",
+            "Type": "DEP",
+            "Transaction_Amount": 200000.0
+        },
+        {
+            "Transaction_Number": "17313615",
+            "Date1": "2017-02-27",
+            "時間": "10:16:30",
+            "帳號": "7590124466089977",
+            "客戶": "王紹揚",
+            "Type": "DEP",
+            "Transaction_Amount": 200000.0
+        },
+        {
+            "Transaction_Number": "17313616",
+            "Date1": "2017-02-27",
+            "時間": "10:20:30",
+            "帳號": "7590124466089977",
+            "客戶": "王紹揚",
+            "Type": "DEP",
+            "Transaction_Amount": 200000.0
+        },
+        {
+            "Transaction_Number": "17313617",
+            "Date1": "2017-03-21",
+            "時間": "12:21:00",
+            "帳號": "7590124466089977",
+            "客戶": "王紹揚",
+            "Type": "DEP",
+            "Transaction_Amount": 200000.0
+        },
+        {
+            "Transaction_Number": "17313618",
+            "Date1": "2017-03-21",
+            "時間": "12:23:00",
+            "帳號": "7590124466089977",
+            "客戶": "王紹揚",
+            "Type": "DEP",
+            "Transaction_Amount": 200000.0
+        },
+        {
+            "Transaction_Number": "17313619",
+            "Date1": "2017-03-21",
+            "時間": "12:25:00",
+            "帳號": "7590124466089977",
+            "客戶": "王紹揚",
+            "Type": "DEP",
+            "Transaction_Amount": 200000.0
+        },
+        {
+            "Transaction_Number": "17313620",
+            "Date1": "2017-03-21",
+            "時間": "12:27:00",
+            "帳號": "7590124466089977",
+            "客戶": "王紹揚",
+            "Type": "DEP",
+            "Transaction_Amount": 200000.0
+        },
+        {
+            "Transaction_Number": "17313621",
+            "Date1": "2017-04-03",
+            "時間": "13:35:00",
+            "帳號": "7590124466089977",
+            "客戶": "王紹揚",
+            "Type": "DEP",
+            "Transaction_Amount": 200000.0
+        },
+        {
+            "Transaction_Number": "17313622",
+            "Date1": "2017-04-03",
+            "時間": "13:38:00",
+            "帳號": "7590124466089977",
+            "客戶": "王紹揚",
+            "Type": "DEP",
+            "Transaction_Amount": 200000.0
+        },
+        {
+            "Transaction_Number": "17313623",
+            "Date1": "2017-04-03",
+            "時間": "13:41:00",
+            "帳號": "7590124466089977",
+            "客戶": "王紹揚",
+            "Type": "DEP",
+            "Transaction_Amount": 200000.0
+        },
+        {
+            "Transaction_Number": "17313624",
+            "Date1": "2017-04-03",
+            "時間": "13:44:00",
+            "帳號": "7590124466089977",
+            "客戶": "王紹揚",
+            "Type": "DEP",
+            "Transaction_Amount": 200000.0
+        },
+        {
+            "Transaction_Number": "17313625",
+            "Date1": "2017-05-11",
+            "時間": "15:01:30",
+            "帳號": "7590124466089977",
+            "客戶": "王紹揚",
+            "Type": "DEP",
+            "Transaction_Amount": 200000.0
+        },
+        {
+            "Transaction_Number": "17313626",
+            "Date1": "2017-05-11",
+            "時間": "15:06:00",
+            "帳號": "7590124466089977",
+            "客戶": "王紹揚",
+            "Type": "DEP",
+            "Transaction_Amount": 200000.0
+        },
+        {
+            "Transaction_Number": "17313627",
+            "Date1": "2017-05-11",
+            "時間": "15:10:30",
+            "帳號": "7590124466089977",
+            "客戶": "王紹揚",
+            "Type": "DEP",
+            "Transaction_Amount": 200000.0
+        },
+        {
+            "Transaction_Number": "17313628",
+            "Date1": "2017-05-11",
+            "時間": "15:15:00",
+            "帳號": "7590124466089977",
+            "客戶": "王紹揚",
+            "Type": "DEP",
+            "Transaction_Amount": 200000.0
+        },
+        {
+            "Transaction_Number": "17313864",
+            "Date1": "2017-05-25",
+            "時間": "10:00:00",
+            "帳號": "7590124466089977",
+            "客戶": "王紹揚",
+            "Type": "WDL",
+            "Transaction_Amount": 465000.0
+        },
+        {
+            "Transaction_Number": "17313865",
+            "Date1": "2017-05-25",
+            "時間": "11:00:00",
+            "帳號": "7590124466089977",
+            "客戶": "王紹揚",
+            "Type": "WDL",
+            "Transaction_Amount": 465000.0
+        },
+        {
+            "Transaction_Number": "17313866",
+            "Date1": "2017-05-25",
+            "時間": "12:00:00",
+            "帳號": "7590124466089977",
+            "客戶": "王紹揚",
+            "Type": "WDL",
+            "Transaction_Amount": 465000.0
+        },
+        {
+            "Transaction_Number": "17313867",
+            "Date1": "2017-05-25",
+            "時間": "13:00:00",
+            "帳號": "7590124466089977",
+            "客戶": "王紹揚",
+            "Type": "WDL",
+            "Transaction_Amount": 465000.0
+        },
+        {
+            "Transaction_Number": "17313868",
+            "Date1": "2017-05-25",
+            "時間": "14:00:00",
+            "帳號": "7590124466089977",
+            "客戶": "王紹揚",
+            "Type": "WDL",
+            "Transaction_Amount": 465000.0
+        },
+        {
+            "Transaction_Number": "17313869",
+            "Date1": "2017-05-25",
+            "時間": "15:00:00",
+            "帳號": "7590124466089977",
+            "客戶": "王紹揚",
+            "Type": "WDL",
+            "Transaction_Amount": 465000.0
+        }
+    ]
+}

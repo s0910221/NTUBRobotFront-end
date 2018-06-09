@@ -1,0 +1,195 @@
+{
+    "source": "Analytics 13 {i_Robot.acl}  {交易資料}",
+    "lastRecNo": "1717",
+    "columns": {
+        "Transaction_Number": "character",
+        "Date1": "date",
+        "時間": "time",
+        "帳號": "character",
+        "客戶": "character",
+        "Type": "character",
+        "Transaction_Amount": "numeric"
+    },
+    "data": [
+        {
+            "Transaction_Number": "17312399",
+            "Date1": "2017-06-01",
+            "時間": "12:33:30",
+            "帳號": "8590128759193385",
+            "客戶": "PETERS",
+            "Type": "WDL",
+            "Transaction_Amount": 1800.0
+        },
+        {
+            "Transaction_Number": "17312453",
+            "Date1": "2017-05-31",
+            "時間": "12:37:30",
+            "帳號": "8590124265829051",
+            "客戶": "PETERS",
+            "Type": "WDL",
+            "Transaction_Amount": 2400.0
+        },
+        {
+            "Transaction_Number": "17312466",
+            "Date1": "2017-06-04",
+            "時間": "14:53:30",
+            "帳號": "8590128759193385",
+            "客戶": "PETERS",
+            "Type": "DEP",
+            "Transaction_Amount": 2700.0
+        },
+        {
+            "Transaction_Number": "17312495",
+            "Date1": "2017-05-31",
+            "時間": "11:37:30",
+            "帳號": "8590128759193385",
+            "客戶": "PETERS",
+            "Type": "WDL",
+            "Transaction_Amount": 3300.0
+        },
+        {
+            "Transaction_Number": "17312525",
+            "Date1": "2017-05-31",
+            "時間": "12:21:30",
+            "帳號": "8590124265829051",
+            "客戶": "PETERS",
+            "Type": "WDL",
+            "Transaction_Amount": 3900.0
+        },
+        {
+            "Transaction_Number": "17312570",
+            "Date1": "2017-05-31",
+            "時間": "10:47:00",
+            "帳號": "8590128759193385",
+            "客戶": "PETERS",
+            "Type": "DEP",
+            "Transaction_Amount": 4600.0
+        },
+        {
+            "Transaction_Number": "17312583",
+            "Date1": "2017-05-31",
+            "時間": "12:17:30",
+            "帳號": "8590128759193385",
+            "客戶": "PETERS",
+            "Type": "WDL",
+            "Transaction_Amount": 4800.0
+        },
+        {
+            "Transaction_Number": "17312612",
+            "Date1": "2017-05-31",
+            "時間": "14:49:30",
+            "帳號": "8590128759193385",
+            "客戶": "PETERS",
+            "Type": "DEP",
+            "Transaction_Amount": 5100.0
+        },
+        {
+            "Transaction_Number": "17312811",
+            "Date1": "2017-05-31",
+            "時間": "10:21:30",
+            "帳號": "8590124265829051",
+            "客戶": "PETERS",
+            "Type": "DEP",
+            "Transaction_Amount": 8487.0
+        },
+        {
+            "Transaction_Number": "17313083",
+            "Date1": "2017-06-04",
+            "時間": "13:37:30",
+            "帳號": "8590124265829051",
+            "客戶": "PETERS",
+            "Type": "DEP",
+            "Transaction_Amount": 12900.0
+        },
+        {
+            "Transaction_Number": "17313135",
+            "Date1": "2017-06-04",
+            "時間": "11:41:30",
+            "帳號": "8590124265829051",
+            "客戶": "PETERS",
+            "Type": "WDL",
+            "Transaction_Amount": 13800.0
+        },
+        {
+            "Transaction_Number": "17313144",
+            "Date1": "2017-06-04",
+            "時間": "11:13:30",
+            "帳號": "8590128759193385",
+            "客戶": "PETERS",
+            "Type": "DEP",
+            "Transaction_Amount": 13900.0
+        },
+        {
+            "Transaction_Number": "17313182",
+            "Date1": "2017-06-03",
+            "時間": "11:17:30",
+            "帳號": "8590128759193385",
+            "客戶": "PETERS",
+            "Type": "DEP",
+            "Transaction_Amount": 14400.0
+        },
+        {
+            "Transaction_Number": "17313220",
+            "Date1": "2017-06-01",
+            "時間": "13:33:30",
+            "帳號": "8590128759193385",
+            "客戶": "PETERS",
+            "Type": "DEP",
+            "Transaction_Amount": 15000.0
+        },
+        {
+            "Transaction_Number": "17313241",
+            "Date1": "2017-05-31",
+            "時間": "10:43:00",
+            "帳號": "8590128759193385",
+            "客戶": "PETERS",
+            "Type": "DEP",
+            "Transaction_Amount": 21800.0
+        },
+        {
+            "Transaction_Number": "17313266",
+            "Date1": "2017-06-03",
+            "時間": "14:33:30",
+            "帳號": "8590128759193385",
+            "客戶": "PETERS",
+            "Type": "DEP",
+            "Transaction_Amount": 31071.0
+        },
+        {
+            "Transaction_Number": "17313310",
+            "Date1": "2017-07-17",
+            "時間": "14:57:30",
+            "帳號": "8590124265829051",
+            "客戶": "PETERS",
+            "Type": "DEP",
+            "Transaction_Amount": 47826.0
+        },
+        {
+            "Transaction_Number": "17313446",
+            "Date1": "2017-05-31",
+            "時間": "10:17:30",
+            "帳號": "8590128759193385",
+            "客戶": "PETERS",
+            "Type": "DEP",
+            "Transaction_Amount": 112479.0
+        },
+        {
+            "Transaction_Number": "17313583",
+            "Date1": "2017-06-03",
+            "時間": "14:37:30",
+            "帳號": "8590124265829051",
+            "客戶": "PETERS",
+            "Type": "DEP",
+            "Transaction_Amount": 186595.0
+        },
+        {
+            "Transaction_Number": "17313669",
+            "Date1": "2017-06-05",
+            "時間": "11:21:30",
+            "帳號": "8590124265829051",
+            "客戶": "PETERS",
+            "Type": "DEP",
+            "Transaction_Amount": 222067.0
+        }
+    ]
+}

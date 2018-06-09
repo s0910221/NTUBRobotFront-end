@@ -19,7 +19,7 @@ export class FiftyComponent implements OnInit {
         const count = [];
         const q4: Question4[] = data.data;
         for (const q of q4) {
-          labels.push(q.帳號);
+          labels.push(q.客戶);
           count.push(q.COUNT);
         }
 
@@ -27,7 +27,7 @@ export class FiftyComponent implements OnInit {
           labels: labels,
           datasets: [
             {
-              label: '大額存款:50萬',
+              label: '篩選大額存款帳戶',
               backgroundColor: '#42A5F5',
               borderColor: '#1E88E5',
               data: count

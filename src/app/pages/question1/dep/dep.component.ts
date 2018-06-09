@@ -19,7 +19,7 @@ export class DEPComponent implements OnInit {
         const count = [];
         const q1: Question1[] = data.data;
         for (const q of q1) {
-          labels.push(q.帳號);
+          labels.push(q.客戶);
           count.push(q.COUNT);
         }
 

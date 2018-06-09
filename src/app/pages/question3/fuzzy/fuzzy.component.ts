@@ -9,15 +9,15 @@ import { Question31 } from '../question3.model';
 })
 export class FuzzyComponent implements OnInit {
 
-  q31: Question31[] = [];
+  // q31: Question31[] = [];
   constructor(private _http: HttpService) { }
 
   ngOnInit() {
-    this._http.getData('/Q3_1.json').subscribe(
-      data => {
-        this.q31 = data.data;
-      }
-    );
+    // this._http.getData('/Q3_1.json').subscribe(
+    //   data => {
+    //     this.q31 = data.data;
+    //   }
+    // );
   }
 
 }

@@ -1,0 +1,78 @@
+{
+    "source": "Analytics 13 {i_Robot.acl}  {Q2_2_林桂美}",
+    "lastRecNo": "7",
+    "columns": {
+        "Transaction_Number": "character",
+        "Date1": "date",
+        "時間": "time",
+        "帳號": "character",
+        "客戶": "character",
+        "Type": "character",
+        "Transaction_Amount": "numeric"
+    },
+    "data": [
+        {
+            "Transaction_Number": "17313738",
+            "Date1": "2017-02-02",
+            "時間": "10:00:00",
+            "帳號": "7590122623055365",
+            "客戶": "林桂美",
+            "Type": "DEP",
+            "Transaction_Amount": 250000.0
+        },
+        {
+            "Transaction_Number": "17313739",
+            "Date1": "2017-02-02",
+            "時間": "10:08:00",
+            "帳號": "7590122623055365",
+            "客戶": "林桂美",
+            "Type": "DEP",
+            "Transaction_Amount": 250000.0
+        },
+        {
+            "Transaction_Number": "17313740",
+            "Date1": "2017-02-02",
+            "時間": "10:16:00",
+            "帳號": "7590122623055365",
+            "客戶": "林桂美",
+            "Type": "DEP",
+            "Transaction_Amount": 250000.0
+        },
+        {
+            "Transaction_Number": "17313741",
+            "Date1": "2017-02-02",
+            "時間": "10:24:00",
+            "帳號": "7590122623055365",
+            "客戶": "林桂美",
+            "Type": "DEP",
+            "Transaction_Amount": 250000.0
+        },
+        {
+            "Transaction_Number": "17313742",
+            "Date1": "2017-02-02",
+            "時間": "10:32:00",
+            "帳號": "7590122623055365",
+            "客戶": "林桂美",
+            "Type": "DEP",
+            "Transaction_Amount": 250000.0
+        },
+        {
+            "Transaction_Number": "17313743",
+            "Date1": "2017-02-03",
+            "時間": "10:40:00",
+            "帳號": "7590122623055365",
+            "客戶": "林桂美",
+            "Type": "DEP",
+            "Transaction_Amount": 250000.0
+        },
+        {
+            "Transaction_Number": "17313744",
+            "Date1": "2017-02-03",
+            "時間": "10:48:00",
+            "帳號": "7590122623055365",
+            "客戶": "林桂美",
+            "Type": "DEP",
+            "Transaction_Amount": 250000.0
+        }
+    ]
+}

@@ -32,21 +32,10 @@ export class SideMenuComponent implements OnInit {
 
   get itemQ1(): MenuItem {
     return {
-      label: '門檻50萬之拆單交易',
-      items: [{
-        label: 'DEP',
-        routerLink: ['/q1/dep'],
-        items: [{
-          label: 'a'
-        }, {
-          label: 'a'
-        }, {
-          label: 'a'
-        }, {
-          label: 'a'
-        }]
-      },
-      { label: 'WDL', routerLink: ['/q1/wdl'], command: (event) => { this.hideSideBar(); } }
+      label: '拆單交易',
+      items: [
+        { label: '疑似規避大額申報拆單', routerLink: ['/q1/dep'], command: (event) => { this.hideSideBar(); } },
+        { label: '拆單後大額提款', routerLink: ['/q1/wdl'], command: (event) => { this.hideSideBar(); } }
       ]
     };
   }
@@ -130,9 +119,9 @@ export class SideMenuComponent implements OnInit {
     return {
       label: '黑名單交易',
       items: [
-        { label: '模糊比對', routerLink: ['/q3/fuzzy'], command: (event) => { this.hideSideBar(); } },
+        { label: '黑名單完整性驗證', routerLink: ['/q3/fuzzy'], command: (event) => { this.hideSideBar(); } },
         {
-          label: '精準比對',
+          label: '黑名單模糊比對',
           routerLink: ['/q3/accurate'],
           items: [
             {
@@ -156,7 +145,7 @@ export class SideMenuComponent implements OnInit {
       label: '大額存款',
       items: [
         {
-          label: '50萬',
+          label: '篩選大額存款帳戶',
           routerLink: ['/q4/fifty'],
           items: [
             {
@@ -197,7 +186,7 @@ export class SideMenuComponent implements OnInit {
           ]
         },
         {
-          label: '75萬',
+          label: '大額申報檔完整性驗證',
           routerLink: ['/q4/seventyFive'],
           items: [
             {
@@ -206,9 +195,10 @@ export class SideMenuComponent implements OnInit {
               command: (event) => { this.hideSideBar(); this._serviceQ4.setItems('seventyFive', 'SOLOMONLANE'); }
             }
           ]
-        },
-        { label: '100萬', routerLink: ['/q4/oneHundred'], command: (event) => { this.hideSideBar(); } },
-        { label: '150萬', routerLink: ['/q4/oneHundredFifty'], command: (event) => { this.hideSideBar(); } }
+        }
+        // ,
+        // { label: '100萬', routerLink: ['/q4/oneHundred'], command: (event) => { this.hideSideBar(); } },
+        // { label: '150萬', routerLink: ['/q4/oneHundredFifty'], command: (event) => { this.hideSideBar(); } }
       ]
     };
   }

@@ -1,1 +1,17 @@
-<p-chart *ngIf="data" type="bar" [data]="data"></p-chart>
+<p-table *ngIf="q42" [value]="q42">
+    <ng-template pTemplate="caption">
+        大額申報檔完整性驗證
+    </ng-template>
+    <ng-template pTemplate="header">
+        <tr>
+            <th>客戶</th>
+            <th>COUNT</th>
+        </tr>
+    </ng-template>
+    <ng-template pTemplate="body" let-q>
+        <tr>
+            <td>{{q.Customer}}</td>
+            <td>{{q.COUNT}}</td>
+        </tr>
+    </ng-template>
+</p-table>
