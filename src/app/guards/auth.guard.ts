@@ -14,11 +14,12 @@ export class AuthGuard implements CanActivate {
   canActivate(
     next: ActivatedRouteSnapshot,
     state: RouterStateSnapshot): Observable<boolean> | Promise<boolean> | boolean {
-      return true;
+    return true;
     // if (!this.isLogin) {
     //   sessionStorage.setItem('redirect_url', next.url[0].path);
     //   this.router.navigate(['/login']);
     // }
     // return this.isLogin;
+    //
   }
 }

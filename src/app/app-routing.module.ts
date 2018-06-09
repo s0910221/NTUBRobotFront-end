@@ -18,6 +18,9 @@ import { OneHundredFiftyComponent } from './pages/question4/one-hundred-fifty/on
 import { Question5Component } from './pages/question5/question5.component';
 import { LoginComponent } from './pages/login/login.component';
 import { DetailQ2Component } from './pages/question2/detail-q2/detail-q2.component';
+import { DetailQ3Component } from './pages/question3/detail-q3/detail-q3.component';
+import { DetailQ4Component } from './pages/question4/detail-q4/detail-q4.component';
+import { DetailQ5Component } from './pages/question5/detail-q5/detail-q5.component';
 
 const routes: Routes = [
   {
@@ -41,7 +44,9 @@ const routes: Routes = [
   {
     path: 'q3', component: Question3Component, canActivate: [AuthGuard], children: [
       { path: 'accurate', component: AccurateComponent },
+      { path: 'accurate/:name', component: DetailQ3Component },
       { path: 'fuzzy', component: FuzzyComponent },
+      { path: 'fuzzy/:name', component: DetailQ3Component },
       { path: '', redirectTo: 'accurate', pathMatch: 'full' },
       { path: '**', redirectTo: 'accurate' }
     ]
@@ -49,7 +54,9 @@ const routes: Routes = [
   {
     path: 'q4', component: Question4Component, canActivate: [AuthGuard], children: [
       { path: 'fifty', component: FiftyComponent },
+      { path: 'fifty/:name', component: DetailQ4Component },
       { path: 'seventyFive', component: SeventyFiveComponent },
+      { path: 'seventyFive/:name', component: DetailQ4Component },
       { path: 'oneHundred', component: OneHundredComponent },
       { path: 'oneHundredFifty', component: OneHundredFiftyComponent },
       { path: '', redirectTo: 'fifty', pathMatch: 'full' },
@@ -57,7 +64,10 @@ const routes: Routes = [
     ]
   },
   {
-    path: 'q5', component: Question5Component, canActivate: [AuthGuard]
+    path: 'q5', component: Question5Component, canActivate: [AuthGuard],
+  },
+  {
+    path: 'q5/:name', component: DetailQ5Component, canActivate: [AuthGuard],
   },
   { path: 'login', component: LoginComponent },
   { path: '', redirectTo: 'login', pathMatch: 'full' },

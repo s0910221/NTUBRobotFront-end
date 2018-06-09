@@ -1,0 +1,27 @@
+<p-table *ngIf="_service.q4Items" [value]="_service.q4Items">
+  <ng-template pTemplate="caption">
+    交易明細-{{_service.name}}
+  </ng-template>
+  <ng-template pTemplate="header">
+    <tr>
+      <th>Transaction_Number</th>
+      <th>Date1</th>
+      <th>時間</th>
+      <th>帳號</th>
+      <th>客戶</th>
+      <th>Type</th>
+      <th>Transaction_Amount</th>
+    </tr>
+  </ng-template>
+  <ng-template pTemplate="body" let-q>
+    <tr>
+      <td>{{q.Transaction_Number}}</td>
+      <td>{{q.Date1}}</td>
+      <td>{{q.Time}}</td>
+      <td>{{q.Account}}</td>
+      <td>{{q.Customer}}</td>
+      <td>{{q.Type}}</td>
+      <td>{{q.Transaction_Amount}}</td>
+    </tr>
+  </ng-template>
+</p-table>

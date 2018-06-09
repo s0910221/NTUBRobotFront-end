@@ -1,6 +1,9 @@
+import { Q5Service } from './../../pages/question5/service/q5.service';
+import { Q3Service } from './../../pages/question3/service/q3.service';
 import { Q2Service } from './../../pages/question2/service/q2.service';
 import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 import { MenuItem } from 'primeng/primeng';
+import { Q4Service } from '../../pages/question4/service/q4.service';
 
 @Component({
   selector: 'app-side-menu',
@@ -12,7 +15,11 @@ export class SideMenuComponent implements OnInit {
   @Output() closeSideBar: EventEmitter<boolean> = new EventEmitter<boolean>();
   items: MenuItem[];
 
-  constructor(private _serviceQ2: Q2Service) { }
+  constructor(
+    private _serviceQ2: Q2Service,
+    private _serviceQ3: Q3Service,
+    private _serviceQ4: Q4Service,
+    private _serviceQ5: Q5Service) { }
 
   ngOnInit() {
     this.items = [];
@@ -124,7 +131,22 @@ export class SideMenuComponent implements OnInit {
       label: '黑名單交易',
       items: [
         { label: '模糊比對', routerLink: ['/q3/fuzzy'], command: (event) => { this.hideSideBar(); } },
-        { label: '精準比對', routerLink: ['/q3/accurate'], command: (event) => { this.hideSideBar(); } }
+        {
+          label: '精準比對',
+          routerLink: ['/q3/accurate'],
+          items: [
+            {
+              label: 'ALLAN',
+              routerLink: ['/q3/accurate/ALLAN'],
+              command: (event) => { this.hideSideBar(); this._serviceQ3.setItems('accurate', 'ALLAN'); }
+            },
+            {
+              label: 'PETERS',
+              routerLink: ['/q3/accurate/PETERS'],
+              command: (event) => { this.hideSideBar(); this._serviceQ3.setItems('accurate', 'PETERS'); }
+            }
+          ]
+        }
       ]
     };
   }
@@ -133,8 +155,58 @@ export class SideMenuComponent implements OnInit {
     return {
       label: '大額存款',
       items: [
-        { label: '50萬', routerLink: ['/q4/fifty'], command: (event) => { this.hideSideBar(); } },
-        { label: '75萬', routerLink: ['/q4/seventyFive'], command: (event) => { this.hideSideBar(); } },
+        {
+          label: '50萬',
+          routerLink: ['/q4/fifty'],
+          items: [
+            {
+              label: 'Cindy',
+              routerLink: ['/q4/fifty/Cindy'],
+              command: (event) => { this.hideSideBar(); this._serviceQ4.setItems('fifty', 'Cindy'); }
+            },
+            {
+              label: 'ETHANHUNT',
+              routerLink: ['/q4/fifty/ETHANHUNT'],
+              command: (event) => { this.hideSideBar(); this._serviceQ4.setItems('fifty', 'ETHANHUNT'); }
+            },
+            {
+              label: 'Sandy',
+              routerLink: ['/q4/fifty/Sandy'],
+              command: (event) => { this.hideSideBar(); this._serviceQ4.setItems('fifty', 'Sandy'); }
+            },
+            {
+              label: 'Sarah',
+              routerLink: ['/q4/fifty/Sarah'],
+              command: (event) => { this.hideSideBar(); this._serviceQ4.setItems('fifty', 'Sarah'); }
+            },
+            {
+              label: 'SOLOMONLANE',
+              routerLink: ['/q4/fifty/SOLOMONLANE'],
+              command: (event) => { this.hideSideBar(); this._serviceQ4.setItems('fifty', 'SOLOMONLANE'); }
+            },
+            {
+              label: '林茂春',
+              routerLink: ['/q4/fifty/林茂春'],
+              command: (event) => { this.hideSideBar(); this._serviceQ4.setItems('fifty', '林茂春'); }
+            },
+            {
+              label: '簡嘉昇',
+              routerLink: ['/q4/fifty/簡嘉昇'],
+              command: (event) => { this.hideSideBar(); this._serviceQ4.setItems('fifty', '簡嘉昇'); }
+            }
+          ]
+        },
+        {
+          label: '75萬',
+          routerLink: ['/q4/seventyFive'],
+          items: [
+            {
+              label: 'SOLOMONLANE',
+              routerLink: ['/q4/seventyFive/SOLOMONLANE'],
+              command: (event) => { this.hideSideBar(); this._serviceQ4.setItems('seventyFive', 'SOLOMONLANE'); }
+            }
+          ]
+        },
         { label: '100萬', routerLink: ['/q4/oneHundred'], command: (event) => { this.hideSideBar(); } },
         { label: '150萬', routerLink: ['/q4/oneHundredFifty'], command: (event) => { this.hideSideBar(); } }
       ]
@@ -143,7 +215,35 @@ export class SideMenuComponent implements OnInit {
 
   get itemQ5(): MenuItem {
     return {
-      label: '以現金及約當現金抵押之違約借款', routerLink: ['/q5'], command: (event) => { this.hideSideBar(); }
+      label: '以現金及約當現金抵押之違約借款',
+      routerLink: ['/q5'],
+      items: [
+        {
+          label: 'ALLATANG',
+          routerLink: ['/q5/ALLATANG'],
+          command: (event) => { this.hideSideBar(); this._serviceQ5.setItems('1', 'ALLATANG'); }
+        },
+        {
+          label: 'CHRIHAAS',
+          routerLink: ['/q5/CHRIHAAS'],
+          command: (event) => { this.hideSideBar(); this._serviceQ5.setItems('1', 'CHRIHAAS'); }
+        },
+        {
+          label: 'ETHESCHN',
+          routerLink: ['/q5/ETHESCHN'],
+          command: (event) => { this.hideSideBar(); this._serviceQ5.setItems('1', 'ETHESCHN'); }
+        },
+        {
+          label: 'JOHNPARK',
+          routerLink: ['/q5/JOHNPARK'],
+          command: (event) => { this.hideSideBar(); this._serviceQ5.setItems('1', 'JOHNPARK'); }
+        },
+        {
+          label: 'SEANO\'CO',
+          routerLink: ['/q5/SEANO\'CO'],
+          command: (event) => { this.hideSideBar(); this._serviceQ5.setItems('1', 'SEANO\'CO'); }
+        }
+      ]
     };
   }
 

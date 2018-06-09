@@ -1,1 +1,285 @@
-{"source":"Analytics 13 {i_Robot.acl}  {Q4_1_ETHANHUNT}","lastRecNo":"30","columns":{"Transaction_Number":"character","Date1":"date","時間":"time","帳號":"character","客戶":"character","Type":"character","Transaction_Amount":"numeric"},"data":[{"Transaction_Number":"17313846","Date1":"2017-08-12","時間":"15:09:30","帳號":"7590342627085290","客戶":"ETHAN HUNT","Type":"DEP","Transaction_Amount":452300.0},{"Transaction_Number":"17313847","Date1":"2017-07-31","時間":"11:22:00","帳號":"7590342627085290","客戶":"ETHAN HUNT","Type":"WDL","Transaction_Amount":452300.0},{"Transaction_Number":"17313853","Date1":"2017-04-05","時間":"13:46:00","帳號":"7590342627085290","客戶":"ETHAN HUNT","Type":"DEP","Transaction_Amount":458000.0},{"Transaction_Number":"17313854","Date1":"2017-03-22","時間":"10:24:00","帳號":"7590342627085290","客戶":"ETHAN HUNT","Type":"WDL","Transaction_Amount":458000.0},{"Transaction_Number":"17313858","Date1":"2017-03-22","時間":"10:23:30","帳號":"7590342627085290","客戶":"ETHAN HUNT","Type":"DEP","Transaction_Amount":460000.0},{"Transaction_Number":"17313859","Date1":"2017-02-12","時間":"09:14:00","帳號":"7590342627085290","客戶":"ETHAN HUNT","Type":"WDL","Transaction_Amount":460000.0},{"Transaction_Number":"17313871","Date1":"2017-07-18","時間":"14:11:00","帳號":"7590342627085290","客戶":"ETHAN HUNT","Type":"DEP","Transaction_Amount":465700.0},{"Transaction_Number":"17313872","Date1":"2017-06-30","時間":"12:56:00","帳號":"7590342627085290","客戶":"ETHAN HUNT","Type":"WDL","Transaction_Amount":465700.0},{"Transaction_Number":"17313874","Date1":"2017-09-13","時間":"12:28:30","帳號":"7590342627085290","客戶":"ETHAN HUNT","Type":"DEP","Transaction_Amount":467100.0},{"Transaction_Number":"17313875","Date1":"2017-08-12","時間":"15:10:00","帳號":"7590342627085290","客戶":"ETHAN HUNT","Type":"WDL","Transaction_Amount":467100.0},{"Transaction_Number":"17313878","Date1":"2017-12-19","時間":"15:29:30","帳號":"7590342627085290","客戶":"ETHAN HUNT","Type":"DEP","Transaction_Amount":469700.0},{"Transaction_Number":"17313879","Date1":"2017-11-07","時間":"11:52:30","帳號":"7590342627085290","客戶":"ETHAN HUNT","Type":"WDL","Transaction_Amount":469700.0},{"Transaction_Number":"17313889","Date1":"2017-06-30","時間":"12:55:30","帳號":"7590342627085290","客戶":"ETHAN HUNT","Type":"DEP","Transaction_Amount":472000.0},{"Transaction_Number":"17313890","Date1":"2017-05-17","時間":"09:39:00","帳號":"7590342627085290","客戶":"ETHAN HUNT","Type":"WDL","Transaction_Amount":472000.0},{"Transaction_Number":"17313892","Date1":"2017-11-07","時間":"11:51:00","帳號":"7590342627085290","客戶":"ETHAN HUNT","Type":"DEP","Transaction_Amount":473200.0},{"Transaction_Number":"17313893","Date1":"2017-10-25","時間":"10:03:00","帳號":"7590342627085290","客戶":"ETHAN HUNT","Type":"WDL","Transaction_Amount":473200.0},{"Transaction_Number":"17313909","Date1":"2017-07-31","時間":"11:21:30","帳號":"7590342627085290","客戶":"ETHAN HUNT","Type":"DEP","Transaction_Amount":482400.0},{"Transaction_Number":"17313910","Date1":"2017-07-18","時間":"14:12:30","帳號":"7590342627085290","客戶":"ETHAN HUNT","Type":"WDL","Transaction_Amount":482400.0},{"Transaction_Number":"17313920","Date1":"2017-09-13","時間":"12:29:00","帳號":"7590342627085290","客戶":"ETHAN HUNT","Type":"WDL","Transaction_Amount":490100.0},{"Transaction_Number":"17313921","Date1":"2017-05-17","時間":"09:38:30","帳號":"7590342627085290","客戶":"ETHAN HUNT","Type":"DEP","Transaction_Amount":491000.0},{"Transaction_Number":"17313922","Date1":"2017-04-05","時間":"13:47:00","帳號":"7590342627085290","客戶":"ETHAN HUNT","Type":"WDL","Transaction_Amount":491000.0},{"Transaction_Number":"17313930","Date1":"2017-12-19","時間":"15:30:00","帳號":"7590342627085290","客戶":"ETHAN HUNT","Type":"WDL","Transaction_Amount":500000.0},{"Transaction_Number":"17313938","Date1":"2017-02-27","時間":"13:42:00","帳號":"7590342627085290","客戶":"ETHAN HUNT","Type":"DEP","Transaction_Amount":1200000.0},{"Transaction_Number":"17313953","Date1":"2017-10-25","時間":"10:02:30","帳號":"7590342627085290","客戶":"ETHAN HUNT","Type":"DEP","Transaction_Amount":3084000.0},{"Transaction_Number":"17313959","Date1":"2017-02-28","時間":"09:00:00","帳號":"7590342627085290","客戶":"ETHAN HUNT","Type":"DEP","Transaction_Amount":600000.0},{"Transaction_Number":"17313960","Date1":"2017-03-21","時間":"10:00:00","帳號":"7590342627085290","客戶":"ETHAN HUNT","Type":"DEP","Transaction_Amount":2000000.0},{"Transaction_Number":"17313961","Date1":"2017-04-11","時間":"11:00:00","帳號":"7590342627085290","客戶":"ETHAN HUNT","Type":"DEP","Transaction_Amount":850000.0},{"Transaction_Number":"17313962","Date1":"2017-05-02","時間":"12:00:00","帳號":"7590342627085290","客戶":"ETHAN HUNT","Type":"DEP","Transaction_Amount":1010000.0},{"Transaction_Number":"17313963","Date1":"2017-05-23","時間":"13:00:00","帳號":"7590342627085290","客戶":"ETHAN HUNT","Type":"DEP","Transaction_Amount":1300000.0},{"Transaction_Number":"17313964","Date1":"2017-06-13","時間":"14:00:00","帳號":"7590342627085290","客戶":"ETHAN HUNT","Type":"DEP","Transaction_Amount":1800000.0}]}
+{
+    "source": "Analytics 13 {i_Robot.acl}  {Q4_1_ETHANHUNT}",
+    "lastRecNo": "30",
+    "columns": {
+        "Transaction_Number": "character",
+        "Date1": "date",
+        "時間": "time",
+        "帳號": "character",
+        "客戶": "character",
+        "Type": "character",
+        "Transaction_Amount": "numeric"
+    },
+    "data": [
+        {
+            "Transaction_Number": "17313846",
+            "Date1": "2017-08-12",
+            "時間": "15:09:30",
+            "帳號": "7590342627085290",
+            "客戶": "ETHAN HUNT",
+            "Type": "DEP",
+            "Transaction_Amount": 452300.0
+        },
+        {
+            "Transaction_Number": "17313847",
+            "Date1": "2017-07-31",
+            "時間": "11:22:00",
+            "帳號": "7590342627085290",
+            "客戶": "ETHAN HUNT",
+            "Type": "WDL",
+            "Transaction_Amount": 452300.0
+        },
+        {
+            "Transaction_Number": "17313853",
+            "Date1": "2017-04-05",
+            "時間": "13:46:00",
+            "帳號": "7590342627085290",
+            "客戶": "ETHAN HUNT",
+            "Type": "DEP",
+            "Transaction_Amount": 458000.0
+        },
+        {
+            "Transaction_Number": "17313854",
+            "Date1": "2017-03-22",
+            "時間": "10:24:00",
+            "帳號": "7590342627085290",
+            "客戶": "ETHAN HUNT",
+            "Type": "WDL",
+            "Transaction_Amount": 458000.0
+        },
+        {
+            "Transaction_Number": "17313858",
+            "Date1": "2017-03-22",
+            "時間": "10:23:30",
+            "帳號": "7590342627085290",
+            "客戶": "ETHAN HUNT",
+            "Type": "DEP",
+            "Transaction_Amount": 460000.0
+        },
+        {
+            "Transaction_Number": "17313859",
+            "Date1": "2017-02-12",
+            "時間": "09:14:00",
+            "帳號": "7590342627085290",
+            "客戶": "ETHAN HUNT",
+            "Type": "WDL",
+            "Transaction_Amount": 460000.0
+        },
+        {
+            "Transaction_Number": "17313871",
+            "Date1": "2017-07-18",
+            "時間": "14:11:00",
+            "帳號": "7590342627085290",
+            "客戶": "ETHAN HUNT",
+            "Type": "DEP",
+            "Transaction_Amount": 465700.0
+        },
+        {
+            "Transaction_Number": "17313872",
+            "Date1": "2017-06-30",
+            "時間": "12:56:00",
+            "帳號": "7590342627085290",
+            "客戶": "ETHAN HUNT",
+            "Type": "WDL",
+            "Transaction_Amount": 465700.0
+        },
+        {
+            "Transaction_Number": "17313874",
+            "Date1": "2017-09-13",
+            "時間": "12:28:30",
+            "帳號": "7590342627085290",
+            "客戶": "ETHAN HUNT",
+            "Type": "DEP",
+            "Transaction_Amount": 467100.0
+        },
+        {
+            "Transaction_Number": "17313875",
+            "Date1": "2017-08-12",
+            "時間": "15:10:00",
+            "帳號": "7590342627085290",
+            "客戶": "ETHAN HUNT",
+            "Type": "WDL",
+            "Transaction_Amount": 467100.0
+        },
+        {
+            "Transaction_Number": "17313878",
+            "Date1": "2017-12-19",
+            "時間": "15:29:30",
+            "帳號": "7590342627085290",
+            "客戶": "ETHAN HUNT",
+            "Type": "DEP",
+            "Transaction_Amount": 469700.0
+        },
+        {
+            "Transaction_Number": "17313879",
+            "Date1": "2017-11-07",
+            "時間": "11:52:30",
+            "帳號": "7590342627085290",
+            "客戶": "ETHAN HUNT",
+            "Type": "WDL",
+            "Transaction_Amount": 469700.0
+        },
+        {
+            "Transaction_Number": "17313889",
+            "Date1": "2017-06-30",
+            "時間": "12:55:30",
+            "帳號": "7590342627085290",
+            "客戶": "ETHAN HUNT",
+            "Type": "DEP",
+            "Transaction_Amount": 472000.0
+        },
+        {
+            "Transaction_Number": "17313890",
+            "Date1": "2017-05-17",
+            "時間": "09:39:00",
+            "帳號": "7590342627085290",
+            "客戶": "ETHAN HUNT",
+            "Type": "WDL",
+            "Transaction_Amount": 472000.0
+        },
+        {
+            "Transaction_Number": "17313892",
+            "Date1": "2017-11-07",
+            "時間": "11:51:00",
+            "帳號": "7590342627085290",
+            "客戶": "ETHAN HUNT",
+            "Type": "DEP",
+            "Transaction_Amount": 473200.0
+        },
+        {
+            "Transaction_Number": "17313893",
+            "Date1": "2017-10-25",
+            "時間": "10:03:00",
+            "帳號": "7590342627085290",
+            "客戶": "ETHAN HUNT",
+            "Type": "WDL",
+            "Transaction_Amount": 473200.0
+        },
+        {
+            "Transaction_Number": "17313909",
+            "Date1": "2017-07-31",
+            "時間": "11:21:30",
+            "帳號": "7590342627085290",
+            "客戶": "ETHAN HUNT",
+            "Type": "DEP",
+            "Transaction_Amount": 482400.0
+        },
+        {
+            "Transaction_Number": "17313910",
+            "Date1": "2017-07-18",
+            "時間": "14:12:30",
+            "帳號": "7590342627085290",
+            "客戶": "ETHAN HUNT",
+            "Type": "WDL",
+            "Transaction_Amount": 482400.0
+        },
+        {
+            "Transaction_Number": "17313920",
+            "Date1": "2017-09-13",
+            "時間": "12:29:00",
+            "帳號": "7590342627085290",
+            "客戶": "ETHAN HUNT",
+            "Type": "WDL",
+            "Transaction_Amount": 490100.0
+        },
+        {
+            "Transaction_Number": "17313921",
+            "Date1": "2017-05-17",
+            "時間": "09:38:30",
+            "帳號": "7590342627085290",
+            "客戶": "ETHAN HUNT",
+            "Type": "DEP",
+            "Transaction_Amount": 491000.0
+        },
+        {
+            "Transaction_Number": "17313922",
+            "Date1": "2017-04-05",
+            "時間": "13:47:00",
+            "帳號": "7590342627085290",
+            "客戶": "ETHAN HUNT",
+            "Type": "WDL",
+            "Transaction_Amount": 491000.0
+        },
+        {
+            "Transaction_Number": "17313930",
+            "Date1": "2017-12-19",
+            "時間": "15:30:00",
+            "帳號": "7590342627085290",
+            "客戶": "ETHAN HUNT",
+            "Type": "WDL",
+            "Transaction_Amount": 500000.0
+        },
+        {
+            "Transaction_Number": "17313938",
+            "Date1": "2017-02-27",
+            "時間": "13:42:00",
+            "帳號": "7590342627085290",
+            "客戶": "ETHAN HUNT",
+            "Type": "DEP",
+            "Transaction_Amount": 1200000.0
+        },
+        {
+            "Transaction_Number": "17313953",
+            "Date1": "2017-10-25",
+            "時間": "10:02:30",
+            "帳號": "7590342627085290",
+            "客戶": "ETHAN HUNT",
+            "Type": "DEP",
+            "Transaction_Amount": 3084000.0
+        },
+        {
+            "Transaction_Number": "17313959",
+            "Date1": "2017-02-28",
+            "時間": "09:00:00",
+            "帳號": "7590342627085290",
+            "客戶": "ETHAN HUNT",
+            "Type": "DEP",
+            "Transaction_Amount": 600000.0
+        },
+        {
+            "Transaction_Number": "17313960",
+            "Date1": "2017-03-21",
+            "時間": "10:00:00",
+            "帳號": "7590342627085290",
+            "客戶": "ETHAN HUNT",
+            "Type": "DEP",
+            "Transaction_Amount": 2000000.0
+        },
+        {
+            "Transaction_Number": "17313961",
+            "Date1": "2017-04-11",
+            "時間": "11:00:00",
+            "帳號": "7590342627085290",
+            "客戶": "ETHAN HUNT",
+            "Type": "DEP",
+            "Transaction_Amount": 850000.0
+        },
+        {
+            "Transaction_Number": "17313962",
+            "Date1": "2017-05-02",
+            "時間": "12:00:00",
+            "帳號": "7590342627085290",
+            "客戶": "ETHAN HUNT",
+            "Type": "DEP",
+            "Transaction_Amount": 1010000.0
+        },
+        {
+            "Transaction_Number": "17313963",
+            "Date1": "2017-05-23",
+            "時間": "13:00:00",
+            "帳號": "7590342627085290",
+            "客戶": "ETHAN HUNT",
+            "Type": "DEP",
+            "Transaction_Amount": 1300000.0
+        },
+        {
+            "Transaction_Number": "17313964",
+            "Date1": "2017-06-13",
+            "時間": "14:00:00",
+            "帳號": "7590342627085290",
+            "客戶": "ETHAN HUNT",
+            "Type": "DEP",
+            "Transaction_Amount": 1800000.0
+        }
+    ]
+}

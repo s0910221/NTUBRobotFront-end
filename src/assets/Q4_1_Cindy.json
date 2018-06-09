@@ -1,1 +1,24 @@
-{"source":"Analytics 13 {i_Robot.acl}  {Q4_1_Cindy}","lastRecNo":"1","columns":{"Transaction_Number":"character","Date1":"date","時間":"time","帳號":"character","客戶":"character","Type":"character","Transaction_Amount":"numeric"},"data":[{"Transaction_Number":"17313935","Date1":"2017-08-20","時間":"14:00:00","帳號":"7590122623055360","客戶":"Cindy","Type":"DEP","Transaction_Amount":675000.0}]}
+{
+    "source": "Analytics 13 {i_Robot.acl}  {Q4_1_Cindy}",
+    "lastRecNo": "1",
+    "columns": {
+        "Transaction_Number": "character",
+        "Date1": "date",
+        "時間": "time",
+        "帳號": "character",
+        "客戶": "character",
+        "Type": "character",
+        "Transaction_Amount": "numeric"
+    },
+    "data": [
+        {
+            "Transaction_Number": "17313935",
+            "Date1": "2017-08-20",
+            "時間": "14:00:00",
+            "帳號": "7590122623055360",
+            "客戶": "Cindy",
+            "Type": "DEP",
+            "Transaction_Amount": 675000.0
+        }
+    ]
+}

@@ -1,3 +1,4 @@
+import { Q3Service } from './pages/question3/service/q3.service';
 import { HttpService } from './public_services/http.service';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -41,6 +42,11 @@ import { OneHundredFiftyComponent } from './pages/question4/one-hundred-fifty/on
 import { LoginComponent } from './pages/login/login.component';
 import { DetailQ2Component } from './pages/question2/detail-q2/detail-q2.component';
 import { Q2Service } from './pages/question2/service/q2.service';
+import { DetailQ3Component } from './pages/question3/detail-q3/detail-q3.component';
+import { Q4Service } from './pages/question4/service/q4.service';
+import { DetailQ4Component } from './pages/question4/detail-q4/detail-q4.component';
+import { DetailQ5Component } from './pages/question5/detail-q5/detail-q5.component';
+import { Q5Service } from './pages/question5/service/q5.service';
 
 @NgModule({
   declarations: [
@@ -62,7 +68,10 @@ import { Q2Service } from './pages/question2/service/q2.service';
     OneHundredComponent,
     OneHundredFiftyComponent,
     LoginComponent,
-    DetailQ2Component
+    DetailQ2Component,
+    DetailQ3Component,
+    DetailQ4Component,
+    DetailQ5Component
   ],
   imports: [
     BrowserModule,
@@ -80,8 +89,13 @@ import { Q2Service } from './pages/question2/service/q2.service';
     PasswordModule,
     NgHttpLoaderModule
   ],
-  providers: [HttpService,
-    Q2Service],
+  providers: [
+    HttpService,
+    Q2Service,
+    Q3Service,
+    Q4Service,
+    Q5Service
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
